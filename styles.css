@@ -281,11 +281,11 @@ img {
 
 .hero-grid {
   display: grid;
-  gap: 1.5rem 4vw;
-  grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.85fr);
+  gap: 0.5rem 4vw;
+  grid-template-columns: minmax(0, 52rem);
   margin: 0 auto;
   max-width: 1440px;
-  padding: clamp(3.2rem, 6vw, 5.5rem) 5vw 3.5rem;
+  padding: clamp(3.2rem, 6vw, 5.5rem) 5vw 4.5rem;
 }
 
 .hero-intro {
@@ -293,8 +293,8 @@ img {
 }
 
 .hero-copy {
-  align-self: center;
-  max-width: 40rem;
+  align-self: start;
+  max-width: 44rem;
 }
 
 .hero h1 {
