@@ -556,42 +556,6 @@ img {
   margin-top: 0.25rem;
 }
 
-.founder-grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  list-style: none;
-  margin: 2rem 0 0;
-  max-width: 760px;
-  padding: 0;
-}
-
-.founder-grid li {
-  background: var(--paper);
-  border: 1px solid var(--ink);
-  box-shadow: 8px 8px 0 var(--ink);
-  min-height: 160px;
-  padding: 1.3rem 1.3rem 1.4rem;
-}
-
-.founder-grid span {
-  font-size: 0.62rem;
-  font-weight: 900;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-.founder-grid strong {
-  display: block;
-  font-family: var(--display);
-  font-size: clamp(2rem, 3vw, 2.7rem);
-  font-weight: 900;
-  letter-spacing: -0.05em;
-  line-height: 0.95;
-  margin-top: 0.8rem;
-  text-transform: uppercase;
-}
-
 .interest-section {
   background: var(--lime);
   border-top: 1px solid var(--ink);
@@ -897,8 +861,7 @@ footer {
   .hero-grid,
   .mentor-grid,
   .interest-grid,
-  .promise-grid,
-  .founder-grid {
+  .promise-grid {
     grid-template-columns: 1fr;
   }
 
